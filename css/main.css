@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.nav{
+    width: 960px;
+    height: auto;
+    background-color: #000;;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20x;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;   
+}
+.nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.nav ul li ul {
+    position: absolute;
+    background: #000;
+    left: -9999px;   
+}
+.nav ul li:hover ul{
+    left: 0px;
+}
+.nav ul li ul li{
+    width: 200px;
+    border-bottom: 1px solid #fff;
+}
+.banner-cover{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-text{
+    padding: 100px;
+    text-align: center;
+}
+.banner-text button{
+    font-size: 20x;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    margin: 0px; 8px;
+}
+.about-logo img{
+    width: 960px;
+    height: 30vh;
+}
+
+.about-text{
+    width: 960px;
+    height: auto;
+    padding: 0px 20px;
+}
+.about-text p{
+    font-size: 16px;
+    color: gray;
+    line-height: 22px;
+    margin: 10px;
+
+}
+.title h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border: 1px solid #fff;
+}
+.row{
+    overflow: hidden;
+}
+.about-section{
+    background: #DCE7E5;
+}
+
+.service{
+    width: 280px;
+    height: auto;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.service p{
+    font-size: 15px;
+    color: gray;
+    line-height: 22px;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+
+}
+.service-section{
+    background: #B7BBB2;
+    padding: 40px 0px;
+    margin-top: 20px;
+
+}
+.serv-icon i{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: .5s;
+}
+.sert-icon i:hover{
+    color: yelllow;
+    transform: scale(.8);
+}
+.contact{
+    
+    background: #fff;
+    padding: 15px 15px 15px 80px;
+    box-shadow: 0px 0px 10px #fff;
+    width:180px ;
+    position: relative;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.cont-icon i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 8px;
+    left: 15px;
+    background: #222;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px;
+    transition: .5s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    
+}
+.cont-icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+
+}
+.cont-text{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+}
+.contact-section{
+    background: #cacaca;
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+.contact-from{
+    width: 620px;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+
+}
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 80%;
+    border: 0;
+    margin: 8px 0px;
+}
+.inputTag textarea{
+    width: 515px;
+    height: auto;
+    border: 0;
+}
+.inputTag button{
+    width: 83%;
+    padding: 10px 0px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border: 0;
+    
+}
+footer{
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+    background: #000;
+    color: #fff;
+    padding: 30px 0px;
+    
+}
+.footer-icon{
+    float: right;
+
+}
+.footer-icon i{
+    font-size: 30px;
+    padding: 0px 10px; 
+    transition: .5s; 
+
+}
+.footer-icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+}
+.footer-text a{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0px 20px;
+}
